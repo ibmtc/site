@@ -23,3 +23,15 @@ p {
     margin: 20vh auto;
     width: 60%;
 }
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    .main {
+        width: 50%;
+    }
+}
